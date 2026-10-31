@@ -213,7 +213,9 @@ button, a { -webkit-tap-highlight-color: transparent; }
   color: #c0cbc7;
   font: 400 8px var(--font-mono);
   letter-spacing: 0.12em;
+  transition: background 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
 }
+.data-node:hover { border-color: var(--cyan); background: rgba(124, 193, 66, 0.22); box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2), 0 0 18px rgba(124, 193, 66, 0.16); }
 .node-icon { color: var(--blue-300); font: 22px/1 var(--font-body); }
 .node-center { top: 41%; left: 38%; min-width: 116px; padding: 17px; border-color: rgba(124, 193, 66, 0.56); background: linear-gradient(145deg, #005966, #003541); color: var(--cyan); }
 .node-center .node-icon { color: var(--cyan); font-size: 27px; }
