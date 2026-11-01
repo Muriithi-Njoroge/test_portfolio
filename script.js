@@ -73,7 +73,7 @@ if (typingText && !reducedMotion) {
     "Cloud Technology",
     "Business Intelligence",
     "Automation","Project Management",
-    "Artificial Intelligence",
+    "Artificial Intelligence","Governance","Sustainability"
   ];
   let specialtyIndex = 0;
 
